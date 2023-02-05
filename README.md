@@ -30,16 +30,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover, active, and focus states for interactive elements on the page
 
-### Screenshot
+### Screenshots
 
-![Website in desktop view](../../../Desktop/New%20Web%20apps%20projects/interactive-card-details-form-main%20-%20Copy/Screenshots/Interactive%20card%20details%20form(desktop%20view).png)
-![Website in desktop view-active state](../../../Desktop/New%20Web%20apps%20projects/interactive-card-details-form-main%20-%20Copy/Screenshots/Interactive%20card%20details%20form(desktop%20view%20-%20active%20state).png)
-![Website in desktop view-completed state](../../../Desktop/New%20Web%20apps%20projects/interactive-card-details-form-main%20-%20Copy/Screenshots/Interactive%20card%20details%20form(desktop%20view%20-%20completed%20state).png)
-![Website in mobile view](../../../Desktop/New%20Web%20apps%20projects/interactive-card-details-form-main%20-%20Copy/Screenshots/Interactive-card-details-form(mobile%20view).png
-![Website in mobile view-active state](../../../Desktop/New%20Web%20apps%20projects/interactive-card-details-form-main%20-%20Copy/Screenshots/Interactive-card-details-form(mobile%20view-%20active%20state).zip.png)
-![Website in mobile view-completed state](../../../Desktop/New%20Web%20apps%20projects//interactive-card-details-form-main%20-%20Copy/Screenshots/Interactive-card-details-form(mobile%20view-%20completed%20state).zip.png)
+-You can find the screenshots of the project on the screenshots folder.
 
-<!-- 
 ### Links
 
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
