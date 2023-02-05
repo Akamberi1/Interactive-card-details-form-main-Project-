@@ -48,6 +48,7 @@ Users should be able to:
  HTML:
 
 -Learned how i can limit the amount of characters of an input using maxlength attribute.
+
  CSS:
 
 -Learned different variantions of hover, focus, placeholder, selections effects.
