@@ -34,11 +34,6 @@ Users should be able to:
 
 -You can find the screenshots of the project on the screenshots folder.
 
-### Links
-
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) --> -->
-
 ## My process
 
 ### Built with
