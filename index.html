@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-color"></div>
+  <aside>
+    <div class="credit-main">
+      <div class="circle"></div>
+      <div class="side-circle"></div>
+      <p id="numbers">0000 0000 0000 0000</p>
+      <span id="name">Jane Appleseed</span>
+      <span id="double-numbers">00</span><span id="slash">/</span>
+      <span id="double-numbers2">00</span>
+    </div>
+    <div class="credit-side">
+      <div class="big-marker">
+      </div>
+      <div class="small-marker">
+        <span id="zeros">000</span>
+      </div>
+      <div class="main">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+        <div class="line-4"></div>
+        <div class="line-5"></div>
+        <div class="line-6"></div>
+        <div class="line-7"></div>
+        <div class="line-8"></div>
+        <div class="line-9"></div>
+        <div class="line-10"></div>
+        <div class="line-11"></div>
+        <div class="line-12"></div>
+      </div>
+    </div>
+  </aside>
+  <main id="main1">
+    <form action="" method="post" autocomplete="off" id="form">
+      <label for="input1">Cardholder Name</label><br>
+      <input name="name" type="text" id="input1" placeholder="e.g. Jane Appleseed"><br>
+
+      <label for="input2" id="label2">Card Number</label><br>
+      <input name="number" type="text" id="input2" placeholder="e.g. 1234 5678 9123 0000" maxlength="16"><br>
+      <div id="format">Wrong format, numbers only</div>
+
+
+      <div id="bestDiv">
+
+        <label for="birthdate1 birthdate2" id="label3">Exp. Date (MM/YY)</label><br>
+        <input name="birthdate1" type="text" id="birthdate1" placeholder="MM" maxlength="2">
+        <div id="b-text">Can't be blank</div>
+        <div id="format2">Wrong format, numbers only</div>
+        <input name="birthdate2" type="text" id="birthdate2" placeholder="YY" maxlength="2">
+
+
+        <label for="cvc" id="label-1">CVC</label>
+        <input name="cvc" type="text" placeholder="e.g. 123" id="cvc" id="last-id" maxlength="3"><br>
+        <div id="b-text1">Can't be blank</div>
+
+
+      </div>
+
+      <button type="submit" id="button">Confirm</button>
+    </form>
+  </main>
+  <!-- Completed state start -->
+
+  <!-- Ending part -->
+  <div id="ending">
+    <div id="ending-circle">
+      <div id="check">
+        <div class="checkmark"></div>
+      </div>  
+    </div>  
+    <h2 id="last-h2">Thank you!</h2>
+    <p id="last-p">We've added your card details</p>
+    <button id="last-button">Continue</button>
+  </div>
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>. -->
+  <!-- </div> -->
+
+
+
+
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

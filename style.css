@@ -1,0 +1,718 @@
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.background-color {
+    height: 100vh;
+    width: 25vw;
+    background: rgb(35, 8, 49);
+    background: linear-gradient(135deg, rgba(35, 8, 49, 1) 0%, rgba(72, 22, 81, 1) 20%, rgba(83, 35, 59, 1) 38%, rgba(49, 43, 89, 1) 45%, rgba(49, 43, 89, 1) 53%, rgba(34, 9, 48, 1) 72%);
+}
+
+
+.credit-main {
+    /* box-shadow: 1px 1px 10px rgba(214, 215, 220, 255); */
+    width: 275px;
+    height: 150px;
+    position: absolute;
+    background: rgb(96, 52, 223);
+    background: linear-gradient(to left top, rgba(219, 117, 113, 255)5%, rgba(98, 146, 228, 255), rgba(171, 73, 220, 255), rgba(96, 52, 223, 255)100%);
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40vw, -100%);
+    border-radius: 5px;
+
+}
+
+#numbers {
+    height: 25%;
+    width: 88%;
+    font-size: 21px;
+    margin: 30% auto 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#name {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    left: 6%;
+}
+
+#double-numbers {
+    padding: 0;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 12%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#double-numbers2 {
+    padding: 0;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#slash {
+    padding: 0;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 10%;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 6%;
+    top: 10%;
+}
+
+.side-circle {
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 100%;
+    position: absolute;
+    left: 22%;
+    top: 17%;
+
+}
+
+.credit-side {
+    /* box-shadow: 1px 1px 10px rgba(214, 215, 220, 255); */
+    width: 275px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(214, 215, 220, 255);
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-36vw, 15%);
+    border-radius: 5px;
+
+}
+
+.big-marker {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(47, 47, 47, 255);
+    position: absolute;
+    top: 10%;
+
+}
+
+.small-marker {
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background-color: rgba(173, 182, 191, 255);
+    border-radius: 2px;
+}
+
+#zeros {
+    position: absolute;
+    left: 84%;
+    width: 100%;
+    color: white;
+    top: 19%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+
+
+}
+
+.line-1 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 60%;
+}
+
+.line-2 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 10%;
+}
+
+.line-3 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 10%;
+}
+
+.line-4 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 5%;
+}
+
+.line-5 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 10%;
+    margin-left: 8%;
+}
+
+.line-6 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 32%;
+}
+
+.line-7 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 20%;
+}
+
+.line-8 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 5%;
+}
+
+.line-9 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 5%;
+    margin-left: 1%;
+}
+
+.line-10 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 10%;
+}
+
+.line-11 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 10%;
+}
+
+.line-12 {
+    background-color: rgba(173, 182, 191, 255);
+    height: 8%;
+    width: 55%;
+}
+
+main {
+    /* display: none; */
+    width: 25%;
+    height: 40%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    flex-direction: column;
+    display: flex;
+
+}
+
+#label-1 {
+    position: absolute;
+    top: 66%;
+    left: 49%;
+}
+
+input {
+    border-radius: 5px;
+    border-color: rgba(237, 237, 237, 255);
+}
+
+#input1 {
+    padding-left: 15px;
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 4%;
+}
+
+#input1:hover {
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+}
+
+#input1:focus {
+    outline: none;
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    perspective: 1px;
+    border-collapse: separate;
+    cursor: auto;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#input1::selection {
+    background-color: #5e138d;
+    color: white;
+}
+
+#input2 {
+    padding-left: 15px;
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 4%;
+}
+
+#input2:hover {
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+}
+
+#input2:focus {
+    outline: none;
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    perspective: 1px;
+    border-collapse: separate;
+    cursor: auto;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#input2::selection {
+    background-color: #5e138d;
+    color: white;
+}
+
+#birthdate1 {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 20%;
+    height: 7vh;
+    text-align: center !important;
+
+}
+
+#cvc,
+#birthdate1,
+#birthdate2:focus {
+    outline: none;
+}
+
+#cvc:hover {
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+}
+
+#cvc:focus {
+    outline: none;
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    perspective: 1px;
+    border-collapse: separate;
+    cursor: auto;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#birthdate1:focus {
+    outline: none;
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    perspective: 1px;
+    border-collapse: separate;
+    cursor: auto;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#birthdate2:focus {
+    outline: none;
+    border: 2px double transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(white, white),
+        linear-gradient(45deg, #63589A, #5e138d);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    perspective: 1px;
+    border-collapse: separate;
+    cursor: auto;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#birthdate2 {
+    position: absolute;
+    top: 75%;
+    left: 23%;
+    width: 20%;
+    height: 7vh;
+    text-align: center !important;
+
+}
+
+#cvc {
+    padding-left: 15px;
+    position: absolute;
+    top: 75%;
+    right: 0;
+    width: 51%;
+    height: 7vh;
+}
+
+#button {
+    position: absolute;
+    top: 100%;
+    height: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: rgba(34, 9, 48, 255);
+    border-radius: 5px;
+    border-color: rgba(34, 9, 48, 255);
+    color: white;
+}
+
+
+#birthdate2,
+#birthdate1::placeholder {
+    text-align: center;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px;
+}
+
+label::selection {
+    outline: none;
+    background-color: #5e138d;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#format {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    margin-bottom: 10px;
+}
+
+#format2 {
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    margin-bottom: 10px;
+}
+
+#b-text {
+    font-size: 12px;
+    position: absolute;
+    top: 95%;
+    display: none;
+}
+
+#b-text1 {
+    font-size: 12px;
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    display: none;
+}
+
+
+
+
+
+/* Last part */
+
+#ending {
+    width: 25%;
+    height: 50%;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+}
+
+#ending-circle {
+    margin: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background: linear-gradient(rgba(98, 51, 220, 255), rgba(98, 16, 168, 255));
+}
+
+#check {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    transform: translate(-73%, -43%);
+    top: 50%;
+    left: 50%;
+}
+
+#check .checkmark {
+    width: 24.5px;
+    height: 11.5px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 3.5px;
+    left: 7px;
+}
+
+
+#last-h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#last-p {
+    font-size: 13px;
+    color: rgba(157, 155, 156, 255);
+    margin-bottom: 40px;
+}
+
+#last-button {
+    width: 100%;
+    height: 15%;
+    background-color: rgba(34, 9, 48, 255);
+    border-color: rgba(34, 9, 48, 255);
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:450px) {
+
+    .background-color {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .credit-side {
+        box-shadow: none;
+        right: 1%;
+        top: 1%;
+        transform: translate(-38%, 20%);
+
+    }
+
+    .credit-main {
+        top: 30%;
+        z-index: 1;
+        box-shadow: none;
+        left: 45%;
+
+    }
+
+
+    main {
+        width: 90vw;
+        height: 40%;
+        top: 55%;
+        transform: translate(-61%, -50%);
+    }
+
+    #input1 {
+        height: 5vh;
+        margin-bottom: 6%;
+    }
+
+    #input2 {
+        height: 5vh;
+        margin-bottom: 6%;
+    }
+
+    #birthdate1 {
+        height: 5vh;
+        top: 55%;
+    }
+
+    #birthdate2 {
+        height: 5vh;
+        top: 55%;
+    }
+
+    #cvc {
+        height: 5vh;
+        top: 55%;
+    }
+
+    #label-1 {
+        top: 48%;
+    }
+
+    #button {
+        top: 75%;
+        height: 6vh;
+
+    }
+
+    #format {
+        display: none;
+        font-size: 12px;
+        position: absolute;
+        top: 45%;
+        margin-bottom: 10px;
+    }
+
+    #b-text {
+        font-size: 12px;
+        position: absolute;
+        top: 73% !important;
+        display: none;
+    }
+
+    #format2 {
+        display: none;
+        font-size: 12px;
+        position: absolute;
+        top: 73% !important;
+    }
+
+    #b-text1 {
+        font-size: 12px;
+        position: absolute;
+        top: 73% !important;
+        left: 60%;
+        display: none;
+    }
+    #ending{
+        width: 90vw;
+        height: 40%;
+        top: 55%;
+        transform: translate(-61%, -50%);
+    }
+    #last-h2{
+        font-size: 28px;
+    }
+    #last-p{
+        font-size: 20px;
+    }
+
+
+}
