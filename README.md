@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive card details form solution
+# Frontend Mentor - Interactive card details form solution (Project)
 
 Hello!
 
