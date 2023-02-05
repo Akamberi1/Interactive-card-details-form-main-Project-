@@ -99,8 +99,6 @@ JS:
 
 ## Author
 
-Thank you,
-
 Arlind Kamberi
 
 Gmail - [arlind.kamberi505@gmail.com](https://www.twitter.com/yourusername)
