@@ -52,21 +52,32 @@ Users should be able to:
  CSS:
 
 -Learned different variantions of hover, focus, placeholder, selections effects.
+
 -Learned how do to deal with gradients.
+
 -Learned how outline and cursor properties work.
+
 -Learned more properties of flexbox.
+
 -Learned more about borders(with gradients), and some new background properties.
+
 -Learned how to apply different fonts for different parts of the project.
 
 
  JS:
 
 -Learned some new ways of DOM manipulation.
+
 -Learned more about the 'addEventListener' method.
+
 -Learned how i can manipulate when a part of project shows and when it hides, manipulating the display property in CSS.
+
 -Learned how i can transfer the form data to the textContent of an element.
+
 -Learned how i can make an element after taking the form data (in this case numbers) have some space between one-another every 4 character.
+
 -Learned how to not allow a user to submit the form if he didn't fill the form properly (when one of the inputs require a number or cant be empty, or both).
+
 -Learned how to reset the form after submitting the data.
 
 
